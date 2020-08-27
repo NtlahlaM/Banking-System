@@ -92,7 +92,7 @@ public class Login {
 				
 				// Create a variable for the connection string.
 				String connectionUrl = "jdbc:sqlserver://localhost:1433;"
-						+ "databaseName= Week9Sprint;integratedSecurity=true;";
+						+ "databaseName= banking;integratedSecurity=true;";
 
 				// Declare the JDBC Objects.
 				Connection con = null;
