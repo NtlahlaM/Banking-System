@@ -112,7 +112,7 @@ public class Tax {
 				
 			}
 		});
-		btnCalc.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\window_enter.png"));
+		btnCalc.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\window_enter.png"));
 		btnCalc.setBounds(393, 122, 128, 128);
 		frame.getContentPane().add(btnCalc);
 		
@@ -160,7 +160,7 @@ public class Tax {
 				frame.setVisible(false);
 			}
 		});
-		btnBack.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\Logo.png"));
+		btnBack.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\Logo.png"));
 		btnBack.setBounds(28, 155, 64, 64);
 		frame.getContentPane().add(btnBack);
 		
@@ -169,7 +169,7 @@ public class Tax {
 		btnBack.setBorderPainted(false);
 		
 		JLabel lblNewLabel_3 = new JLabel("");
-		lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\geometric-background-red-frame-with-metal-grille-vector-20461754.jpg"));
+		lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\geometric-background-red-frame-with-metal-grille-vector-20461754.jpg"));
 		lblNewLabel_3.setBounds(0, 0, 626, 379);
 		frame.getContentPane().add(lblNewLabel_3);
 	}
