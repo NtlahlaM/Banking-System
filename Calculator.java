@@ -135,7 +135,7 @@ public class Calculator {
 				
 			}
 		});
-		btnCalc.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\window_enter.png"));
+		btnCalc.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\window_enter.png"));
 		btnCalc.setBounds(439, 130, 128, 128);
 		frame.getContentPane().add(btnCalc);
 		
@@ -158,7 +158,7 @@ public class Calculator {
 		btnCalc.setBorderPainted(false);
 		
 		JButton btnBack = new JButton("");
-		btnBack.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\Logo.png"));
+		btnBack.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\Logo.png"));
 		btnBack.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -175,7 +175,7 @@ public class Calculator {
 		btnBack.setBorderPainted(false);
 		
 		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\newblue.jpg"));
+		lblNewLabel_5.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\newblue.jpg"));
 		lblNewLabel_5.setBounds(0, 0, 626, 393);
 		frame.getContentPane().add(lblNewLabel_5);
 	}
