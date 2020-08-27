@@ -73,7 +73,7 @@ public class Bank {
 
 		// Create a variable for the connection string.
 		String connectionUrl = "jdbc:sqlserver://localhost:1433;"
-				+ "databaseName= Week9Sprint;integratedSecurity=true;";
+				+ "databaseName= banking;integratedSecurity=true;";
 
 		// Declare the JDBC Objects.
 		Connection con = null;
@@ -108,13 +108,13 @@ public class Bank {
 	
 		
 		JButton btnWithdraw = new JButton("");
-		btnWithdraw.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\button_withdraw (1).png"));
+		btnWithdraw.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\button_withdraw (1).png"));
 		btnWithdraw.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 				// Create a variable for the connection string.
 				String connectionUrl = "jdbc:sqlserver://localhost:1433;"
-						+ "databaseName= Week9Sprint;integratedSecurity=true;";
+						+ "databaseName= banking;integratedSecurity=true;";
 
 				// Declare the JDBC Objects.
 				Connection con = null;
@@ -172,14 +172,14 @@ public class Bank {
 		
 		
 		JButton btnDeposit = new JButton("");
-		btnDeposit.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\button_deposit (1).png"));
+		btnDeposit.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\button_deposit (1).png"));
 		btnDeposit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 
 				// Create a variable for the connection string.
 				String connectionUrl = "jdbc:sqlserver://localhost:1433;"
-						+ "databaseName= Week9Sprint;integratedSecurity=true;";
+						+ "databaseName= banking;integratedSecurity=true;";
 
 				// Declare the JDBC Objects.
 				Connection con = null;
@@ -236,7 +236,7 @@ public class Bank {
 		btnDeposit.setBorderPainted(false);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\Logo.png"));
+		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\Logo.png"));
 		lblNewLabel.setBackground(Color.YELLOW);
 		lblNewLabel.setBounds(282, 11, 64, 67);
 		frame.getContentPane().add(lblNewLabel);
@@ -270,7 +270,7 @@ public class Bank {
 				
 			}
 		});
-		btnCalc.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\calculator.png"));
+		btnCalc.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\calculator.png"));
 		btnCalc.setBounds(485, 192, 128, 128);
 		frame.getContentPane().add(btnCalc);
 		
@@ -288,7 +288,7 @@ public class Bank {
 				
 			}
 		});
-		btnTax.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\gnome_planner.png"));
+		btnTax.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\gnome_planner.png"));
 		btnTax.setBounds(10, 192, 128, 128);
 		frame.getContentPane().add(btnTax);
 		
@@ -311,7 +311,7 @@ public class Bank {
 		frame.getContentPane().add(lblNewLabel_4);
 		
 		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setIcon(new ImageIcon("C:\\Users\\shaqu\\eclipse-workspace\\Week 9 Sprint\\Images\\BankBackground3.jpg"));
+		lblNewLabel_5.setIcon(new ImageIcon("C:\\Users\\ntlahla\\eclipse-workspace\\banking\\Images\\BankBackground3.jpg"));
 		lblNewLabel_5.setBounds(0, 0, 626, 417);
 		frame.getContentPane().add(lblNewLabel_5);
 		
